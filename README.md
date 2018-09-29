@@ -10,3 +10,7 @@
 2. Navigate using your mouse or using tabs 
 3. Enjoy the restaurant reviews!
 4. More revisions are coming!
+
+
+
+Note: site based on code from: https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/
