@@ -88,7 +88,9 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
+  //image.alt = "Image of " + restaurant.name; (this code doesn't work)
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
